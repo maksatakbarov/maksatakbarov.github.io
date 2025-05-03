@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Pc store</title>
+    <title>PC Store</title>
 </head>
 <script>
-    function redirect() {
-      window.location.href = "order.html";
+    function redirect(){
+        window.location.href="order.html";
     }
-  </script>
+</script>
 <body>
     <nav>
         <ul>
             <li>
-                <a href="main.html"><img src="images/pc-icon.png" alt="logo"></a>
+                <a href="main.html"><img id="logo" src="images/pc-igon.png" alt="logo"></a>
             </li>
             <li>
-            <input type="text" placeholder="Search for products...">
+                <a href="login.html" id="login">Login</a>
             </li>
             <li>
-                <a href="about.html">About</a>
+                <input type="text" placeholder="Search product">
+            </li>
+            <li>
+                <a href="about.html" id="about">About</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
@@ -29,36 +32,56 @@
         </ul>
     </nav>
     <main>
-        <h1>PC Store</h1>
-        <p>Ознакомьтесь с нашим широким ассортиментом высококачественных компонентов и аксессуаров для ПК.</p>
         <header>
+            <h1>PC Store</h1>
+            <p>Ознакомтесь с нашим широким ассортиментом высококачественных компонентов.</p>
             <h1>Добро пожаловать в наш магазин компьютерных товаров!</h1>
-            <p>Мы предлагаем широкий ассортимент компьютерных компонентов и аксессуаров, чтобы вы смогли создать идеальный компьютер
-                для себя или вашего бизнеса.</p>
-            </header>
-            <div class="products">
-                <div class="product1">
-                    <img src="images/27 S39C FHD 75Hz Curved Monitor.jpg" alt="Product 1" class="product-image">
-                    <h2>Product 1</h2>
-                    <p>Description of Product 1</p>
-                    <button onclick="redirect()">Add to Cart</button>
-                </div>
-                <div class="product2">
-                    <img src="images/AOC 24G11E2.webp" alt="Product 2" class="product-image">
-                    <h2>Product 2</h2>
-                    <p>Description of Product 2</p>
-                    <button onclick="redirect()">Add to Cart</button>
-                </div>
-                <div class="product3">
-                    <img src="images/AOC 24G15N-1.jpg" alt="Product 3" class="product-image">
-                    <h2>Product 3</h2>
-                    <p>Description of Product 3</p>
-                    <button onclick="redirect()">Add to Cart</button>
-                </div>
+            <p>Мы предлагаем широкий ассортимент компьютерных компонентов и акссесуаров, 
+                чтобы вы смогли собрать идеальный компьютер для себя или вашего бизнеса.</p>
+        </header>
+        <div class="products">
+            <div class="product1">
+                <img src="images/27 S93C FHD 75Hz Curved Monitor.jpg" alt="Product 1" class="product-image">
+                <h2>27 S93C FHD 75Hz Curved Monitor</h2>
+                <p>Description</p>
+                <button onclick="redirect()">Add to Cart</button>
             </div>
+            <div class="product2">
+                <img src="images/AOC 24G11E2.webp" alt="Product 2" class="product-image">
+                <h2>AOC 24G11E2</h2>
+                <p>Description</p>
+                <button onclick="redirect()">Add to Cart</button>
+            </div>
+            <div class="product3">
+                <img src="images/AOC 24G15N-1.jpg" alt="Product 3" class="product-image">
+                <h2>AOC 24G15N-1</h2>
+                <p>Description</p>
+                <button onclick="redirect()">Add to Cart</button>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2025 PC Store. All rights reserved.</p>
+        <div class="footer-links">
+            <div>
+                <a href="main.html">
+                    <img id="logo1" src="images/pc-igon.png">
+                </a>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <a href="main.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.twitter.com/">Twitter</a>
+            </div>
+        </div>
+
+        <div>&copy; PC Store. Все права защищены.</div>
     </footer>
 </body>
 </html>
