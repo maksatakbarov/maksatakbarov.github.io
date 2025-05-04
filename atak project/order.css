@@ -5,7 +5,7 @@
 }
 body{
     font-family:'Roboto', sans-serif;
-    background-color:white;
+    background-color:rgb(222, 222, 222);
 }
 nav ul{
     display:flex;
@@ -95,4 +95,41 @@ footer{
     font-size:1.2em;
     line-height:1.5;
     margin-bottom:30px;
+}
+.form-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#d45a3b;
+    color:white;
+    border:3px solid white;
+    border-radius:10px;
+    width:35%;
+    margin-left:32.5%;
+    height:400px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.forms{
+    display:flex;
+    flex-direction:column;
+    width:70%;
+    gap:5px;
+}
+.forms input{
+    padding-bottom:20px;
+}
+.forms button{
+    margin-top:10px;
+    height:30px;
+    background-color:#d12924;
+    color:white;
+    border:1px solid white;
+    border-radius:5px;
+}
+#notes{
+    height:40px;
+    max-height:80px;
+    resize:vertical;
 }
