@@ -5,7 +5,7 @@
 }
 body{
     font-family:'Roboto', sans-serif;
-    background-color:white;
+    background-color:rgb(222, 222, 222);
 }
 nav ul{
     display:flex;
@@ -98,7 +98,9 @@ header{
     background:#d12924;
     color:white;
     height:100vh;
-    background:linear-gradient(180deg, rgba(209, 41, 36, 1) 32%, rgb(212, 59, 59) 73%)
+    background:linear-gradient(180deg, rgba(209, 41, 36, 1) 32%, rgb(212, 59, 59) 73%);
+    padding-left:50px;
+    padding-right:50px;
 }
 header p{
     margin-bottom:20px;
@@ -126,8 +128,8 @@ header h1{
     color:white;
 }
 .product-image{
-    width:250px;
-    height:200px;
+    width:200px;
+    height:150px;
     object-fit:cover;
 }
 .product-list{
@@ -143,9 +145,10 @@ header h1{
     justify-content:center;
     align-items:center;
     padding:20px;
+    width:22%;
     border-radius:10px;
     background-color:#d45a3b;
-    margin:20px;
+    margin:16px;
     gap:1rem;
     box-shadow:0 4px 8px rgba(0, 0, 0, 1,)
 }
