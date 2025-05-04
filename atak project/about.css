@@ -68,7 +68,7 @@ footer{
     margin:10px 0px;
 }
 .footer-links a:hover{
-    color:#d45a3b
+    color:#d12924;
 }
 .footer-links div{
     display:flex;
@@ -84,6 +84,8 @@ footer{
     justify-content:center;
     align-items:start;
     padding:20px;
+    margin-left:50px;
+    margin-right:50px;
     margin-top:50px;
     padding-bottom:50px;
 }
