@@ -135,6 +135,11 @@ footer{
     border:1px solid white;
     border-radius:5px;
 }
+.forms button:hover{
+    scale:1.05;
+    cursor:pointer;
+    transition:0.3s;
+}
 #notes{
     height:40px;
     max-height:80px;
